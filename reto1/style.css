@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(77, 58, 185);
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#lista{
+    background-color: rgb(151, 143, 194);
+}
+a{
+    color: white;
+}
+p{color: rgb(146, 122, 233);}
