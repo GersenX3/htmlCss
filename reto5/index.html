@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario
+        </h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label> <br>
+            <label for="pais">
+                <span>Pais</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label> <br>
+            <label for="codigoPostal">
+                <span>Codigo Postal</span>
+                <input type="number" name="codigoPostal" id="codigoPostal" autocomplete="postal-code" required>
+            </label> <br>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </label> <br><br>
+            <label for="enviar">
+                <span>Envialo</span>
+                <input type="submit">
+            </label>
+        </form>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
