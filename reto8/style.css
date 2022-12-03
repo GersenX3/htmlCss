@@ -1,0 +1,24 @@
+body{
+    background-color: white;
+    color: black;
+}
+.b1 {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background-color:transparent;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.b1:hover {
+	background-color:transparent;
+}
+.b1:active {
+	position:relative;
+	top:1px;
+}
