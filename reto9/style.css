@@ -1,0 +1,18 @@
+/* etiqueta */
+body{
+    background-color: #6D9886;
+    color: #F7F7F7;
+}
+h2{
+    font-size: larger;
+}
+/* class */
+.porClase{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+/* id */
+#porId{
+    font-size: 140%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
