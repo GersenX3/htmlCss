@@ -1,0 +1,19 @@
+body{
+    background-color: #0E5E6F;
+    color: #FFEFD6;
+    text-align:start;
+}
+
+#titulo{
+    font-size:300%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: #F2DEBA;
+    text-align: center;
+}
+
+#carrito{
+    height: 8cm;
+    display: block;
+    margin-right:2cm;
+    margin-left: auto;
+}
