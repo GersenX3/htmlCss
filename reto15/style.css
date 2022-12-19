@@ -3,31 +3,35 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: black;
+}
 h1{
+    color: rgb(202, 171, 171);
     font-family: arial;
     margin-bottom: 10px;
-}
-#page_title{
-    font-family: helvetica;
 }
 .title{
     font-size: 30px;
     font-family: monospace;
 }
 
-#margin_nav{
+.nav{
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0px;
 }
-#main_nav li{
+.nav li{
     display: inline-block;
 }
-#main_nav a{
+.nav a{
 
     color: white;
-    background-color: black;
+    background-color: rgb(66, 66, 66);
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
+}
+.nav .pago{
+    background-color: brown;
 }
