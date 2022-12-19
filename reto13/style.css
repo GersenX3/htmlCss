@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#main_nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: red;
+    list-style: none;
+}
+
+.main_nav_li{
+    display: inline-block;
+    padding-left: 13%;
+}
+.main_nav_li a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.main_nav_li a:hover{
+    color: black;
+    font-size: 125%;
+}

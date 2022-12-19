@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: arial;
+    margin-bottom: 10px;
+}
+#page_title{
+    font-family: helvetica;
+}
+.title{
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#margin_nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#main_nav li{
+    display: inline-block;
+}
+#main_nav a{
+
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}

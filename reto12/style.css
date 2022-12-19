@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box; /*Suma el padding con las dimenciones del elemento para tenerlas en cuenta al calcular los porcentajes*/
+    box-sizing: border-box; /*Suma el padding con las dimensiones del elemento para tenerlas en cuenta al calcular los porcentajes*/
     padding: 0;
     margin: 0;
 }
@@ -7,6 +7,6 @@
 main {
     width: 100%;
     height: 500px;
-    border: 10px solid grey;
+    border: 100px solid grey;
     padding: 20px 35px;
 }
