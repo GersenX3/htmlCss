@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+section{
+    width: 80%;
+    min-height: 1px;
+    min-width: 320px;
+    max-width: 500px;
+
+    background-color: rgb(133, 46, 133);
+    margin: 0 auto;
+}
