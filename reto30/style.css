@@ -1,0 +1,34 @@
+:root{
+    --primary-color: #251B37;
+    --secondary-color: #372948;
+    --third-color: #FFCACA;
+    --fourth-color: #FFECEF;
+    --font-size: 1.8rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: #251B37;
+}
+main{
+    width: 100vw;
+    height: 70vh;
+    font-size: 1.8rem;
+    background-color: var(--fourth-color);
+}
+h1{
+    font-size: 4rem;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--third-color);
+}
