@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    border:2px solid black;
+    flex-wrap: wrap;
+}
+.box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: brown;
+}
+.box3{
+    background-color: chocolate;
+}
+.box4{
+    background-color: darkcyan;
+}
+.box5{
+    background-color: tomato;
+}
+.box6{
+    background-color: cornflowerblue;
+}
