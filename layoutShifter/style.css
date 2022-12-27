@@ -6,6 +6,30 @@
 html{
     font-size: 62.5%;
 }
+.nav{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+}
+.nav_img{
+    height: auto;
+}
+.nav_img img{
+    height: 4rem;
+    align-self: center;
+}
+.nav_lista{
+    justify-self: flex-end;
+    flex-direction: row-reverse;
+
+}
+.nav_lista ul{
+    list-style:none;
+    display: flex;
+    flex-grow: 1;
+
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +48,6 @@ html{
 }
 .box3{
     background-color: blueviolet;
-    height: auto;
 
 }
 .box4{
@@ -33,4 +56,36 @@ html{
 }
 .box5{
     background-color: chartreuse;
+}
+@media (min-width: 600px){
+    .box1{
+        width: 25%;
+        height: 30rem;
+    }
+    .box4{
+        width: 75%;
+    }
+    .box5{
+        width: 100%;
+    }
+}
+@media (min-width: 800px){
+    .container{
+        width: 800px;
+        margin:0 auto;
+    }
+    .box1{
+        width: 50%;
+        order: 1;
+        height: 15rem;
+    }
+    .box4{
+        width: 100%;
+    }
+    .box5{
+        width: 50%;
+        order: 2;
+    }
+
+
 }
