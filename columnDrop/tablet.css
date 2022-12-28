@@ -1,0 +1,21 @@
+.box1{
+    width: 25%;
+    order: 1;
+}
+.box2{
+    width: 75%;
+    order: 2;
+}
+.box3{
+    width: 100%;
+    order: 3;
+}
+.box4{
+    width: 100%;
+    order: 4;
+}
+.box5{
+    width: 100%;
+    order: 5;
+}
+    

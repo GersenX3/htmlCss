@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1, .box2, .box3, .box4, .box5{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.box1{
+    background-color: rgb(40, 42, 58);
+}
+.box2{
+    background-color: rgb(115, 95, 50);
+}
+.box3{
+    background-color: rgb(198, 151, 73);
+}
+.box4{
+    background-color: rgb(21, 0, 80);
+}
+.box5{
+    background-color: rgb(63, 0, 113);
+}
